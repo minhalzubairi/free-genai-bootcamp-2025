@@ -1,5 +1,7 @@
 ### Clues for Transcription with Examples
 
+#### https://context.reverso.net/translation/arabic-english/
+
 ### user_input
 1. Zaid is learning arabic
 2. Cats are at the door, did you leave the garbage out?
