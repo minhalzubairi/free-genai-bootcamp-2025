@@ -19,21 +19,21 @@ Beginner, A1
 ## Examples 
 Here are examples of user input and assistant output, pay attention to the score of the example and why it is scored like that
 
-<user:input>
+# user:input
     Cats are at the door, did you leave the garbage out?
-</user:input>
 
-<score> 
+
+# score 
     8 
-</score>
 
-<score_reasons>
+
+# score_reasons
     BAD: The initial first message is unnecessary, it should just go right in
     GOOD: Proper sentence structure
     GOOD: Vocab table is good with proper Arabic words
-</score_reasons>
 
-<assistant:output>
+
+# assistant:output
 
     Marhaba! Let's break down the sentence into vocabulary and structure.
         Vocabulary Table
@@ -59,10 +59,6 @@ Here are examples of user input and assistant output, pay attention to the score
     Think about the word order and how to connect the ideas in the sentence.
     Work through these clues, and see if you can construct the sentence in Arabic!
 
-</assistant:output>
-
-<improvement_considerations>
+# improvement_considerations>
 
     I can consider adding pronunciation in roman to help the user correctly pronunciate the arabic text
-
-</improvement_considerations>
