@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sentence-structure-examples>
+
+<examples>
+    <example>
+        <sentence>The boy is in the house.</sentence>
+        <structure>
+            English: [Subject] [Verb to be (implied)] [Prepositional Phrase].  
+            العربية: [المبتدأ] [فعل يكون (مُضْمَر)] [شبه جملة (جار ومجرور)].  
+        </structure>
+    </example>
+    <example>
+        <sentence>She has a new book.</sentence>
+        <structure>
+            English: [Subject] [Verb] [Object] [Adjective].  
+            العربية: [المبتدأ] [الفعل] [المفعول به] [النعت].  
+        </structure>
+    </example>
+    <example>
+        <sentence>Where is the market?</sentence>
+        <structure>
+            English: [Question Word] [Verb to be (implied)] [Subject]?  
+            العربية: [أداة الاستفهام] [فعل يكون (مُضْمَر)] [المبتدأ]؟  
+        </structure>
+    </example>
+    <example>
+        <sentence>I want water, please.</sentence>
+        <structure>
+            English: [Subject] [Verb] [Object] [Politeness Word].  
+            العربية: [المبتدأ] [الفعل] [المفعول به] [كلمة تأدّب].  
+        </structure>
+    </example>
+    <example>
+        <sentence>The car is red.</sentence>
+        <structure>
+            English: [Subject] [Verb to be (implied)] [Adjective].  
+            العربية: [المبتدأ] [فعل يكون (مُضْمَر)] [الخبر].  
+        </structure>
+    </example>
+    <example>
+        <sentence>We are at school.</sentence>
+        <structure>
+            English: [Subject] [Verb to be (implied)] [Prepositional Phrase].  
+            العربية: [المبتدأ] [فعل يكون (مُضْمَر)] [شبه جملة (جار ومجرور)].  
+        </structure>
+    </example>
+    <example>
+        <sentence>Do you like coffee?</sentence>
+        <structure>
+            English: [Question Particle] [Subject] [Verb] [Object]?  
+            العربية: [أداة الاستفهام] [المبتدأ] [الفعل] [المفعول به]؟  
+        </structure>
+    </example>
+    <example>
+        <sentence>The weather is hot today.</sentence>
+        <structure>
+            English: [Subject] [Verb to be (implied)] [Adjective] [Time Expression].  
+            العربية: [المبتدأ] [فعل يكون (مُضْمَر)] [الخبر] [ظرف زمان].  
+        </structure>
+    </example>
+    <example>
+        <sentence>He eats bread in the morning.</sentence>
+        <structure>
+            English: [Subject] [Verb] [Object] [Time Expression].  
+            العربية: [المبتدأ] [الفعل] [المفعول به] [ظرف زمان].  
+        </structure>
+    </example>
+    <example>
+        <sentence>My name is (your name).</sentence>
+        <structure>
+            English: [Possessive Phrase] [Verb to be (implied)] [Name].  
+            العربية: [التركيب الإضافي] [فعل يكون (مُضْمَر)] [الاسم].  
+        </structure>
+    </example>
+</examples>
+
+
+</sentence-structure-examples>
