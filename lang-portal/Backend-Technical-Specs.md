@@ -100,7 +100,6 @@ Please note that the frontend will determine progress bar based on total words s
 ```
 
 ### GET /api/dashboard/quick-stats
-
 Returns quick overview statistics.
 
 #### JSON Response
@@ -113,7 +112,26 @@ Returns quick overview statistics.
 }
 ```
 
+### GET /api/study_activities
+Returns a list of available study activities.
+
+#### JSON Response
+```json
+{
+  "activities": [
+    {
+      "id": 1,
+      "name": "Vocabulary Quiz",
+      "thumbnail_url": "/images/vocab-quiz.png",
+      "description": "Test your vocabulary knowledge",
+      "launch_url": "/activities/vocab-quiz"
+    }
+  ]
+}
+```
+
 ### GET /api/study_activities/:id
+Returns detailed information about a specific study activity.
 
 #### JSON Response
 ```json
@@ -151,6 +169,7 @@ Returns quick overview statistics.
 ```
 
 ### POST /api/study_activities
+Creates a new study session for an activity.
 
 #### Request Params
 - group_id integer
@@ -420,6 +439,5 @@ In our task we should have DSL to specific each seed file and its expected group
     "romaji": "harau",
     "english": "to pay",
   },
-  ...
 ]
 ```
