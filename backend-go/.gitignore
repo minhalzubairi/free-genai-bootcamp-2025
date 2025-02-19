@@ -1,0 +1,25 @@
+# Binary
+backend-go
+
+# Database
+*.db
+
+# IDE files
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+
+# Go binary files
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with go test -c
+*.test
+
+# Output of the go coverage tool
+*.out
