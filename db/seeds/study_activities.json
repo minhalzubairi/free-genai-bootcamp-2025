@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Vocabulary Quiz",
+    "thumbnail_url": "/images/vocab-quiz.png",
+    "description": "Test your vocabulary knowledge",
+    "launch_url": "/activities/vocab-quiz"
+  },
+  {
+    "name": "Flashcards",
+    "thumbnail_url": "/images/flashcards.png",
+    "description": "Learn with interactive flashcards",
+    "launch_url": "/activities/flashcards"
+  }
+]
