@@ -1,0 +1,50 @@
+package service
+
+import (
+    "fmt"
+    "log"
+    "time"
+    "database/sql"
+    "github.com/minhalzubairi/lang-portal/backend-go/internal/models"
+)
+
+// GroupResponse represents a group with word count
+type GroupResponse struct {
+    ID        int64  `json:"id"`
+    Name      string `json:"name"`
+    WordCount int    `json:"word_count"`
+}
+
+// GroupDetailResponse represents a single group with stats
+type GroupDetailResponse struct {
+    ID    int64  `json:"id"`
+    Name  string `json:"name"`
+    Stats struct {
+        TotalWordCount int `json:"total_word_count"`
+    } `json:"stats"`
+}
+
+// GetGroup returns a single group by ID with stats
+func GetGroup(id int64) (*GroupDetailResponse, error) {
+    db := GetDB()
+    if db == nil {
+        return nil, fmt.Errorf("database connection not initialized")
+    }
+
+    var group GroupDetailResponse
+    err := db.QueryRow(`
+        SELECT 
+            g.id,
+            g.name,
+            (SELECT COUNT(*) FROM words_groups wg WHERE wg.group_id = g.id) as word_count
+        FROM groups g
+        WHERE g.id = ?`, id).Scan(&group.ID, &group.Name, &group.Stats.TotalWordCount)
+    if err != nil {
+        log.Printf("Error getting group %d: %v", id, err)
+        return nil, err
+    }
+
+    return &group, nil
+}
+
+// ... (keep all other existing functions)
